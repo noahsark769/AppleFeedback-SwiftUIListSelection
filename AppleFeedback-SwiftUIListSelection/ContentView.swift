@@ -10,7 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                NavigationLink(destination: Color.red) {
+                    Text("Red")
+                }
+                NavigationLink(destination: Color.blue) {
+                    Text("Blue")
+                }
+                NavigationLink(destination: Color.green) {
+                    Text("Green")
+                }
+            }
+        }
     }
 }
 
