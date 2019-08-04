@@ -1,5 +1,5 @@
 # AppleFeedback-SwiftUIListSelection
-This project demonstrates an issue reprodudicble on Xcode 11 beta 4.
+This project demonstrates an issue reprodudicble on Xcode 11 beta 4. This has been submitted as FB6751233
 
 To reproduce:
 
